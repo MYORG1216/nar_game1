@@ -94,8 +94,11 @@ function drawBricks() {
         bricks[col][row].yPos = bYpos;
         canvasCtx.beginPath();
         canvasCtx.rect(bXpos, bYpos, bWidth, bHeight);
-        canvasCtx.fillStyle = "peru";
-        canvasCtx.fill();
+        var grd = canvasCtx.createLinearGradient(200,0,0,200);
+        grd.addColorStop(0,"lightgreen");
+        grd.addColorStop(1,"gold");
+        canvasCtx.fillStyle = grd;
+        canvasCtx.fillRect(bXpos, bYpos, bWidth, bHeight);
         canvasCtx.closePath();
       }
     }

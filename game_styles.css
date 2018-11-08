@@ -1,7 +1,7 @@
 body { background-color: oldlace; }
 canvas { 
-         background: lightblue; 
-         position: relative;
-         top: 100px;
-         left: 32%;
+	    background: linear-gradient(to bottom, #ccffff 0%, #66ccff 100%); 
+	    position: absolute;
+	    top: 25%;
+	    left: 30%;
        }
