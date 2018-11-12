@@ -1,4 +1,6 @@
-body { background-color: oldlace; }
+body {
+    background-color: burlywood;
+     }
 canvas { 
 	    background: linear-gradient(to bottom, #ccffff 0%, #66ccff 100%); 
 	    position: absolute;
